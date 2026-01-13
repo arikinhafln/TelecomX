@@ -1,17 +1,20 @@
 # TelecomX
 
 Project Overview
+
 I have been hired as a Data Analysis Assistant at Telecom X for the "Customer Churn" project. The goal is to address high cancellation rates by identifying the key drivers of customer loss.
 
 Using Python, I am responsible for the end-to-end data workflow—from collection to analysis—providing the foundation for the Data Science team to build predictive models and retention strategies.
 
 What I will practice:
+
 -API Integration: Efficient data import and manipulation.
 -ETL Pipeline: Applying Extract, Transform, and Load concepts.
 -Data Visualization: Building strategic charts to spot trends.
 -EDA: Performing Exploratory Data Analysis and reporting insights.
 
 Introduction
+
 Customer churn is one of the primary challenges faced by telecommunications companies, as it directly impacts revenue and Customer Acquisition Costs (CAC). The objective of this analysis is to identify patterns and factors associated with customer cancellation using historical data from **Telecom X**.
 
 Through Exploratory Data Analysis (EDA), I sought to understand the profile of customers most likely to churn and generate insights to support churn reduction and strategic decision-making.
@@ -19,6 +22,7 @@ Through Exploratory Data Analysis (EDA), I sought to understand the profile of c
 ---
 
 Data Cleaning and Preprocessing
+
 Initially, the data was imported into a **Google Colab** environment and underwent a cleaning and treatment process, including:
 
 * **Handling Missing Values:** Identification and treatment of null entries.
@@ -32,6 +36,7 @@ These steps ensured high reliability and quality for the subsequent analysis.
 ---
 
 Exploratory Data Analysis (EDA)
+
 During the exploratory phase, data visualizations were used to identify patterns and relationships between variables and customer churn.
 
 * **Tenure (Contract Time) vs. Churn:** Boxplots revealed that customers who churned tended to have shorter tenures, indicating that cancellation occurs most frequently in the early months of the relationship with the company.
@@ -45,6 +50,7 @@ During the exploratory phase, data visualizations were used to identify patterns
 ---
 
 Conclusions and Insights
+
 The analysis identified key factors associated with customer churn:
 
 1. **Early Churn:** Customers with short contract tenures are more likely to leave.
@@ -57,6 +63,7 @@ The analysis identified key factors associated with customer churn:
 ---
 
 Recommendations
+
 Based on the insights gathered, the following actions are recommended:
 
 * **Onboarding Retention:** Create specific retention strategies for the first few months of a contract, such as "welcome" offers.
@@ -67,4 +74,5 @@ Based on the insights gathered, the following actions are recommended:
 * **Predictive Modeling:** Use this cleaned dataset as a foundation for developing future churn prediction machine learning models.
 
 Final Considerations
+
 This analysis demonstrates how data and visualization can support strategic decisions to reduce customer attrition. The insights obtained provide a solid foundation for retention actions and more advanced predictive analytics in the future.
